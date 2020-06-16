@@ -1,0 +1,12 @@
+mainContainer.setBackground(Color.YELLOW); 
+        // this makes the overall background completely yellow 
+        this.getRootPane().setBorder(BorderFactory.createMatteBorder(4,4,4,4,Color.RED)); 
+        // this makes the outline of the entire
+        
+        JPanel center = new JPanel();
+
+        JButton b1 = new JButton("fuckyou");
+        
+        center.add(b1); 
+        center.setBorder(new LineBorder(Color.BLACK)); 
+        center.add(gd); 
